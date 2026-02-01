@@ -151,12 +151,12 @@ FindBack AI brings structure, intelligence, and trust to a system that has remai
 
 Website UI :- 
 
-<img width="1501" height="968" alt="Screenshot 2026-02-01 151050" src="https://github.com/user-attachments/assets/b863d0b1-0dbf-46b6-8afa-585cb8f7151e" />
-<img width="1470" height="970" alt="Screenshot 2026-02-01 151014" src="https://github.com/user-attachments/assets/806e295f-0706-4560-9199-2546f26ded19" />
-<img width="1420" height="970" alt="Screenshot 2026-02-01 150954" src="https://github.com/user-attachments/assets/506798cb-ac75-4ca2-8a9a-4771a2828d58" />
-<img width="1395" height="960" alt="Screenshot 2026-02-01 150858" src="https://github.com/user-attachments/assets/4ab9c164-2e10-4ba5-9d5f-310cc6552821" />
-<img width="1532" height="959" alt="Screenshot 2026-02-01 150842" src="https://github.com/user-attachments/assets/a4cdcc2a-c3e3-4b98-9706-ac28153d2339" />
-<img width="1919" height="971" alt="Screenshot 2026-02-01 150619" src="https://github.com/user-attachments/assets/0156b56a-1c1b-4c31-bec1-5d1d1394f3b5" />
-<img width="1708" height="967" alt="Screenshot 2026-02-01 151306" src="https://github.com/user-attachments/assets/d621d7c7-e042-4da3-a03a-66e04127e0f1" />
-<img width="1617" height="963" alt="Screenshot 2026-02-01 151252" src="https://github.com/user-attachments/assets/5fd5a1dc-cf55-4426-97b2-f750b5b0b129" />
+<img width="1919" height="971" alt="Screenshot 2026-02-01 150619" src="https://github.com/user-attachments/assets/8f3a9997-492f-43c2-91b6-fcbf30eb5e22" />
+<img width="1532" height="959" alt="Screenshot 2026-02-01 150842" src="https://github.com/user-attachments/assets/92f6e958-956b-4423-a13c-c8a9dcbeb28d" />
+<img width="1395" height="960" alt="Screenshot 2026-02-01 150858" src="https://github.com/user-attachments/assets/de28ef1e-6414-48aa-9067-2ba09c338a0d" />
+<img width="1420" height="970" alt="Screenshot 2026-02-01 150954" src="https://github.com/user-attachments/assets/ce8464ff-4706-43d4-b650-2cc0a83ab4cd" />
+<img width="1708" height="967" alt="Screenshot 2026-02-01 151306" src="https://github.com/user-attachments/assets/4042b7db-b61a-45b7-bec4-a6557595353e" />
+<img width="1617" height="963" alt="Screenshot 2026-02-01 151252" src="https://github.com/user-attachments/assets/1ac936bb-47b0-4530-9bd3-4afb698c1cae" />
+<img width="1501" height="968" alt="Screenshot 2026-02-01 151050" src="https://github.com/user-attachments/assets/23b9981e-3286-4f26-8021-515681606762" />
+<img width="1470" height="970" alt="Screenshot 2026-02-01 151014" src="https://github.com/user-attachments/assets/d1cedbd4-d7e1-4e67-9f15-7f6e91bd8e6f" />
 

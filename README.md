@@ -141,3 +141,7 @@ FindBack AI brings structure, intelligence, and trust to a process that has rema
 <img width="1617" height="963" alt="Screenshot 2026-02-01 151252" src="https://github.com/user-attachments/assets/baf37212-8c0b-4cc1-a78b-a812259a70dd" />
 <img width="1501" height="968" alt="Screenshot 2026-02-01 151050" src="https://github.com/user-attachments/assets/2b8943bb-c68d-41c1-88c2-ebfa74c835eb" />
 <img width="1470" height="970" alt="Screenshot 2026-02-01 151014" src="https://github.com/user-attachments/assets/591849e1-5862-4bb8-a752-85eb3ced2312" />
+
+Mobile View (Looks Like APP UI)
+
+<img width="426" height="882" alt="Screenshot 2026-02-01 161304" src="https://github.com/user-attachments/assets/26691c0d-8a11-4def-b6cd-3627627bb2f7" />

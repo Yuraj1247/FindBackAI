@@ -1,162 +1,143 @@
-🔍 FindBack AI
+# 🔍 FindBack AI  
+## AI-Powered Lost & Found System for College Campuses
 
-AI-Powered Lost & Found System for College Campuses
+FindBack AI is an intelligent, campus-focused Lost & Found platform designed to solve one of the most common yet ignored problems in college environments — recovering lost personal belongings. Items like ID cards, wallets, phones, laptops, and books are lost daily, but recovery still relies on WhatsApp messages, notice boards, or physical registers, which are slow, unstructured, and unreliable.
 
-🧠 Overview
+FindBack AI digitizes the entire Lost & Found process using **Computer Vision, OCR, and Semantic Search** to connect lost items with their rightful owners through a **secure, transparent, and verified lifecycle**.
 
-Losing personal belongings on a college campus is a common and stressful experience for students, faculty, and staff. Despite being frequent, the recovery process is still handled through manual notices, WhatsApp messages, or physical registers, which are slow, unstructured, and ineffective.
+---
 
-FindBack AI is an intelligent, campus-focused Lost & Found platform that uses computer vision, OCR, and semantic search to connect lost items with their rightful owners through a structured, secure, and transparent workflow.
+## 🎯 Problem
 
-🎯 Problem Statement
+- No centralized system to report or search lost items  
+- Keyword-based searches fail when descriptions don’t match exactly  
+- Ownership verification is informal and unreliable  
+- Many items are never recovered even after being found  
 
-In college environments:
+---
 
-Items are lost daily (ID cards, wallets, laptops, books, phones).
-There is no centralized system to report or search lost items.
-Keyword-based searches fail when descriptions don’t match exactly.
-Ownership verification is informal and unreliable.
+## 💡 Solution
 
-As a result, many items are never recovered even when they are found.
+FindBack AI introduces an AI-driven Lost & Found system built specifically for college campuses. The platform allows college citizens to report found items, browse a live Lost Item Gallery, and submit claim requests with proof of ownership. Admins verify claims before handover, ensuring trust and accountability.
 
-💡 Solution
-
-FindBack AI introduces an AI-driven Lost & Found system designed specifically for college campuses.
-
-The platform:
-
-Digitizes the lost & found process
-Uses AI to understand images and descriptions contextually
-Provides a secure claim → verification → handover lifecycle
-Works seamlessly as a website on desktop/tablet and an app-like interface on mobile
-
-👥 Users
-1. College Citizens
-
-(Students, Faculty, Staff)
-Report found items
-Browse the Lost Item Gallery
-Search using advanced real-time filters
-Submit claim requests with proof of ownership
-
-2. Admin (College Authority)
-
-Authenticate via email & password
-Review claim requests
-Verify ownership
-Edit or delete item details
-Mark items as received
-Maintain system integrity
-
-🔄 Item Lifecycle
-
-Each item follows a clear and transparent lifecycle:
-
-FOUND → CLAIM REQUESTED → VERIFIED → RECEIVED
+Each item follows a clear lifecycle: FOUND → CLAIM REQUESTED → VERIFIED → RECEIVED
 
 
-This ensures:
+This prevents duplicate claims, ensures proper verification, and provides clear closure once the item is returned.
 
-No duplicate claims
-Proper verification before handover
-Clear closure once an item is returned
+---
 
-🤖 Where AI Is Used (Core Innovation)
+## 🤖 AI Core Innovation
 
-FindBack AI does not rely on basic keyword matching. Instead, it uses AI meaningfully at multiple stages:
+FindBack AI goes beyond basic keyword matching by using AI meaningfully:
 
-Image Understanding
-Analyzes uploaded images to identify the type of item (wallet, ID, phone, bag, etc.).
+- **Image Understanding:** Identifies item type from uploaded images  
+- **OCR (Text Extraction):** Extracts names, ID numbers, brands, and labels  
+- **Semantic Matching:** Matches lost and found items based on meaning and context  
+- **Confidence Scoring:** Ranks matches transparently to improve trust  
 
-OCR (Text Extraction)
-Extracts visible text such as names, ID numbers, brands, or labels.
+This enables the system to surface matches that traditional systems miss.
 
-Semantic Matching
-Matches lost-item descriptions with found items based on meaning and context, not just exact words.
+---
 
-Confidence Scoring
-Ranks results with match confidence to improve trust and transparency.
+## 🔐 Security & Ownership Verification
 
-This allows FindBack AI to surface matches that traditional systems miss.
-
-🔐 Security & Ownership Verification
-
-To prevent misuse and ensure items are returned to the rightful owner:
-
-Claimants must provide proof of ownership
-(e.g., unique details, contents, identifiers, context).
-Admins manually review and verify each claim.
-Items are handed over only after verification and then marked as RECEIVED.
+To prevent misuse:
+- Claimants must submit proof of ownership (unique details, identifiers, context)  
+- Admins manually review and verify each claim  
+- Items are handed over only after verification and marked as **RECEIVED**  
 
 This human-in-the-loop approach ensures both accuracy and trust.
 
-🖥️ Platform & UI
+---
 
-Landing Website (Dark Theme)
+## 👥 Users
 
-Black background with red & white accents
-Pages: Home, About Us, Report Found, Lost Item Gallery
-“Start Now” → Enter Campus App
-“Exit App” → Return to Landing Page
+**College Citizens (Students, Faculty, Staff)**  
+- Report found items  
+- Browse Lost Item Gallery  
+- Search using advanced real-time filters  
+- Submit claim requests  
 
-Campus App (Website-Style UI)
+**Admin (College Authority)**  
+- Secure login via email & password  
+- Review and verify claims  
+- Edit or delete item details  
+- Mark items as received  
+- Maintain system integrity  
 
-No dashboard-style layout
-Professional website navigation
-Smooth scroll-to-top transitions
-App-like experience on mobile devices
+---
 
-🔍 Advanced Search & Filters
+## 🔍 Advanced Search & Filters
 
-The Lost Item Gallery supports real-time filtering, including:
+The Lost Item Gallery supports:
+- Live text search  
+- Item category filtering  
+- Location-based filtering  
+- Date & time ranges  
+- Status filters  
+- Multiple filters applied simultaneously  
 
-Text search (live)
-Item category
-Location
-Date & time ranges
-Status filters
-Multiple filters applied simultaneously
+All results update instantly without page reloads.
 
-Results update instantly without page reloads.
+---
 
-🛠 Tech Stack
+## 🖥️ Platform & UI
 
-Frontend: React + TypeScript
-Styling: Tailwind CSS (custom dark theme)
-AI Integration: Google Gemini Models
-State Management: React Context API
-Data Storage: LocalStorage / in-memory (hackathon-friendly)
-Routing: Client-side routing with smooth navigation
+- Dark-themed landing website (black background with red & white accents)  
+- Pages: Home, About Us, Report Found, Lost Item Gallery  
+- “Start Now” to enter Campus App, “Exit App” to return to landing page  
+- Website-style campus app UI (no dashboard clutter)  
+- Smooth navigation and app-like mobile experience  
 
-🚀 Why FindBack AI Stands Out
+---
 
-Solves a real, everyday campus problem
-AI is used practically, not as a gimmick
-Clear ownership verification flow
-Mobile-first, professional UI
-Institution-ready concept
-Easy to demo and explain to judges
+## 🛠 Tech Stack
 
-📈 Future Scope
+- **Frontend:** React + TypeScript  
+- **Styling:** Tailwind CSS (custom dark theme)  
+- **AI Integration:** Google Gemini Models  
+- **State Management:** React Context API  
+- **Data Storage:** LocalStorage / In-memory (hackathon-friendly)  
+- **Routing:** Client-side routing with smooth navigation  
 
-Multi-campus support
-Email/SMS notifications
-CCTV-assisted matching
-Role-based admin access
-City or university-wide adoption
+---
 
-🏁 Conclusion
+## 🚀 Why FindBack AI Stands Out
 
-FindBack AI brings structure, intelligence, and trust to a system that has remained manual and inefficient for years. By combining AI with human verification, it ensures that lost items don’t just get logged — they get returned.
+- Solves a real, everyday campus problem  
+- Uses AI practically, not as a gimmick  
+- Secure ownership verification workflow  
+- Mobile-first, professional UI  
+- Institution-ready and easy to demo  
 
-Website UI :- 
+---
 
-<img width="1919" height="971" alt="Screenshot 2026-02-01 150619" src="https://github.com/user-attachments/assets/8f3a9997-492f-43c2-91b6-fcbf30eb5e22" />
-<img width="1532" height="959" alt="Screenshot 2026-02-01 150842" src="https://github.com/user-attachments/assets/92f6e958-956b-4423-a13c-c8a9dcbeb28d" />
-<img width="1395" height="960" alt="Screenshot 2026-02-01 150858" src="https://github.com/user-attachments/assets/de28ef1e-6414-48aa-9067-2ba09c338a0d" />
-<img width="1420" height="970" alt="Screenshot 2026-02-01 150954" src="https://github.com/user-attachments/assets/ce8464ff-4706-43d4-b650-2cc0a83ab4cd" />
-<img width="1708" height="967" alt="Screenshot 2026-02-01 151306" src="https://github.com/user-attachments/assets/4042b7db-b61a-45b7-bec4-a6557595353e" />
-<img width="1617" height="963" alt="Screenshot 2026-02-01 151252" src="https://github.com/user-attachments/assets/1ac936bb-47b0-4530-9bd3-4afb698c1cae" />
-<img width="1501" height="968" alt="Screenshot 2026-02-01 151050" src="https://github.com/user-attachments/assets/23b9981e-3286-4f26-8021-515681606762" />
-<img width="1470" height="970" alt="Screenshot 2026-02-01 151014" src="https://github.com/user-attachments/assets/d1cedbd4-d7e1-4e67-9f15-7f6e91bd8e6f" />
+## 📈 Future Scope
 
+- Multi-campus support  
+- Email & SMS notifications  
+- CCTV-assisted matching  
+- Role-based admin access  
+- University or city-wide adoption  
+
+---
+
+## 🏁 Conclusion
+
+FindBack AI brings structure, intelligence, and trust to a process that has remained manual and inefficient for years. By combining AI with human verification, it ensures that lost items don’t just get logged — **they get returned.**
+
+---
+
+## 🖼️ Website UI Preview
+
+
+
+<img width="1919" height="971" alt="Screenshot 2026-02-01 150619" src="https://github.com/user-attachments/assets/889ece1d-14f8-4839-9aa1-0a881514f91e" />
+<img width="1532" height="959" alt="Screenshot 2026-02-01 150842" src="https://github.com/user-attachments/assets/442fcb68-e338-4ab8-aa5c-61a271fa399c" />
+<img width="1395" height="960" alt="Screenshot 2026-02-01 150858" src="https://github.com/user-attachments/assets/54c7f837-b44d-409b-9f68-38c9655abf5b" />
+<img width="1420" height="970" alt="Screenshot 2026-02-01 150954" src="https://github.com/user-attachments/assets/ea125a4b-2059-4dd2-9feb-ad1c9a774eb0" />
+<img width="1708" height="967" alt="Screenshot 2026-02-01 151306" src="https://github.com/user-attachments/assets/a0d4bc4c-de09-46a3-9e47-289154b906b2" />
+<img width="1617" height="963" alt="Screenshot 2026-02-01 151252" src="https://github.com/user-attachments/assets/baf37212-8c0b-4cc1-a78b-a812259a70dd" />
+<img width="1501" height="968" alt="Screenshot 2026-02-01 151050" src="https://github.com/user-attachments/assets/2b8943bb-c68d-41c1-88c2-ebfa74c835eb" />
+<img width="1470" height="970" alt="Screenshot 2026-02-01 151014" src="https://github.com/user-attachments/assets/591849e1-5862-4bb8-a752-85eb3ced2312" />

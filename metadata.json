@@ -1,0 +1,7 @@
+{
+  "name": "FindBack AI",
+  "description": "AI-powered system for matching lost and found items using computer vision and semantic search.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
